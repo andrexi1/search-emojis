@@ -1,9 +1,10 @@
 const Header = () => {
-  return ( 
-    <header>
-      <h2>Emoji Searcher</h2>
+  return (
+    <header className="hero">
+      <h2>Emoji Searcher 🙂 </h2>
+      <h3>Busca tu emoji favorito...</h3>
     </header>
   );
-}
+};
 
 export default Header;
